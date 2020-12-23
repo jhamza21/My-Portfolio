@@ -8,11 +8,11 @@
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
-    "develop": "nodemon --legacy-watch --exec 'gatsby develop -H 0.0.0.0' -e mdx",
+    "dev": "gatsby develop -H 0.0.0.0",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve -H 0.0.0.0",
     "clean": "gatsby clean"
   },
   "dependencies": {
